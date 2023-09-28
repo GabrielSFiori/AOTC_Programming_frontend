@@ -18,6 +18,7 @@ body {
     margin-left: 10px;
     width: 300px; 
     padding: 50px;
+    justify-content: center;
     
   }
   
@@ -41,7 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-height: 700px;
+    min-height: 100px;
     padding: 60px 68px 40px;
     width: 300px;
   }
@@ -72,20 +73,21 @@ body {
     text-decoration: underline;
   }
   
-  .login__container--social-media > div {
+  /* .login__container--social-media > div {
     align-items: center;
     display: flex;
     font-size: 14px;
     margin-bottom: 10px;
-  }
+  } */
   
-  .login__container--social-media > div > img {
+  /* .login__container--social-media > div > img {
     margin-right: 10px;
     width: 30px;
   }
-  
+   */
   .login__container--register {
     font-size: 14px;
+    margin-top: 40px;
   }
   
   .login__container--register a {
